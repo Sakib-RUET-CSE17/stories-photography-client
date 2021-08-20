@@ -1,0 +1,17 @@
+.header__component{
+    .container{
+        svg{
+            color: $primary;
+            margin-right: 6px;
+        }
+        a {
+            text-decoration: none;
+            color: $black;
+            font-weight: bold;
+        }
+        li {
+            padding: 10px;
+        }
+    } 
+    
+}

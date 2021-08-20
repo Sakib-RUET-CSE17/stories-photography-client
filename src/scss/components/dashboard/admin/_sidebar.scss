@@ -1,0 +1,48 @@
+.sidebar__component{
+    background-color: #663399;
+    position: fixed;
+    height: 100%;
+    .nickname {
+        /* position: absolute; */
+        width: 55px;
+        height: 41px;
+        left: 33px;
+        top: 35px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 41px;
+        /* identical to box height */
+        color: #FFFFFF;
+        
+    }
+    .center{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .center:hover{
+        background-color: #7D48B1;
+        cursor: pointer;
+    }
+    li {
+        /* position: absolute; */
+        width: 94px;
+        height: 74px;
+        left: 13px;
+        top: 123px;
+        /* background: #7D48B1; */
+        border-radius: 5px;
+        /* margin: 1em; */
+        /* border: 1px solid red; */
+        color: white;
+        list-style: none;
+    }
+    // a {
+    //     text-decoration: none;
+    // }
+}
